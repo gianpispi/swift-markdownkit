@@ -353,7 +353,8 @@ open class AttributedStringGenerator {
   open var blockquoteStyle: String {
     return "width: 100%;" +
            "margin: 0.3em 0;" +
-           "font-size: \(self.fontSize)px;"
+           "font-size: \(self.fontSize)px;" +
+           "background-color: rgba(255, 0, 0, 0.4);"
   }
   
   open var quoteStyle: String {
